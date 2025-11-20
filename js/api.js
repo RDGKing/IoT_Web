@@ -1,7 +1,7 @@
 // === Ajusta esta URL al host de tu backend Flask ===
 //   Local:       http://localhost:5000/api
 //   Servidor:    http://TU_IP_PUBLICA:5000/api
-export const API_BASE_URL = "http://100.30.141.76:5000/api";
+export const API_BASE_URL = "https://100.30.141.76:5000/api";
 
 // Une base + path evitando dobles o faltas de /
 function joinUrl(base, path = "") {
