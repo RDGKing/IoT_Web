@@ -1,14 +1,7 @@
 // === Ajusta esta URL al host de tu backend Flask ===
 //   Local:       http://localhost:5000/api
 //   Servidor:    http://TU_IP_PUBLICA:5000/api
-const a = "100";
-const b = "30";
-const c = "141";
-const d = "75";
-
-const port = "5000";
-
-export const url = `http://${a}.${b}.${c}.${d}:${port}/api/iot-devices/last-status-texto`;
+export const API_BASE_URL = "http://100.30.141.76:5000/api";
 
 // Une base + path evitando dobles o faltas de /
 function joinUrl(base, path = "") {
